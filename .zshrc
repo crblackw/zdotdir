@@ -1,5 +1,3 @@
-# test
-
 #!/bin/zsh
 #
 # .zshrc - Zsh file loaded on interactive shell sessions.
