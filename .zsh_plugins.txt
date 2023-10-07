@@ -177,6 +177,9 @@ belak/zsh-utils path:history
 belak/zsh-utils path:utility
 belak/zsh-utils path:editor
 
+# Keybinding plugins, loading after zsh-utils editor as this resets bindings
+ohmyzsh/ohmyzsh path:plugins/fzf
+
 ### Deferred Plugins
 #
 # Antidote allows you to defer loading plugins. This is similar to concepts like "turbo
