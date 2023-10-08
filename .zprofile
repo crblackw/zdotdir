@@ -38,7 +38,7 @@ path=(
 # My vars
 #
 
-export FZF_DEFAULT_COMMAND='fd --type file'
+export FZF_DEFAULT_COMMAND='fd --type f --strip-cwd-prefix'
 export FZF_CTRL_T_COMMAND="$FZF_DEFAULT_COMMAND"
 export FZF_DEFAULT_OPS="--extended"
 export npm_config_prefix="$HOME/.local"
